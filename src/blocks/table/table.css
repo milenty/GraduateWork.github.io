@@ -1,0 +1,30 @@
+@import url('./__title/table__title.css');
+@import url('./__grid/table__grid.css');
+
+.table {
+    width: 100%;
+    min-height: 866px;
+    background: #F5F6F7;
+}
+
+@media (max-width: 768px) {
+    .table {
+        width: 100%;
+        min-height: none;
+       }
+}
+
+@media (max-width: 375px) {
+    .table {
+        width: 100%;
+        min-height: 478px;
+       }
+}
+
+@media (max-width: 320px) {
+    .table {
+        width: 100%;
+        min-height: 478px;
+        border: #F5F6F7 1px solid;
+       }
+}

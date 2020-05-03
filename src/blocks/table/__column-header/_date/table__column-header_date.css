@@ -1,0 +1,19 @@
+.table__column-header_date {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    white-space: pre-line;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+

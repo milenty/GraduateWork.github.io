@@ -1,0 +1,118 @@
+@import url(./__item/slider__item.css);
+
+.history__slider {
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    width: 100%;
+    background: #F5F6F7;
+  }
+
+@media (max-width: 768px) {
+    .history__slider {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 375px) {
+  .history__slider {
+      position: absolute;
+      top: 168px;
+      left: auto;
+      right: auto;
+      margin-top: 0px;
+  }
+}
+
+.slider {
+  position: relative;
+}
+
+@media (max-width: 375px) {
+  .slider {
+      position: absolute;
+      top: 168px;
+      left: auto;
+      right: auto;
+      margin-top: 0px;
+  }
+}
+
+
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track{
+  display: flex;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 35%;
+  z-index: 15;
+  font-size: 0;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  opacity: 0.85;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .slider .slick-arrow {
+     display: none;
+  }
+}
+
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url(../../../images/control2.png) 0 0 no-repeat;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url(../../../images/control2.png) 0 0 no-repeat;
+}
+
+.slick-dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 375px) {
+  .slick-dots {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.slider .slick-dots li {
+  list-style: none;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.slider .slick-dots button {
+ font-size: 0;
+ width: 12px;
+ height: 12px;
+ border-radius: 50%;
+ background: #D1D2D6;
+ border: none;
+}
+
+.slider .slick-dots .slick-active button{
+  background-color: #1A1B22;
+}
+
+

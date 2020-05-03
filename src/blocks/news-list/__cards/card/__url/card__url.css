@@ -1,0 +1,47 @@
+.card__url {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    width: 88%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 999px) {
+    .card__url {
+        width: 86%; 
+        margin-left: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card__url {
+        width: 86%; 
+        margin-left: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .card__url {
+        width: 90%; 
+        margin-left: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .card__url {
+        width: 90%; 
+        margin-left: 16px;
+        margin-bottom: 20px;
+    }
+}

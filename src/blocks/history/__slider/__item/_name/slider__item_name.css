@@ -1,0 +1,20 @@
+.slider__item_name {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .slider__item_name {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+

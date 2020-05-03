@@ -1,0 +1,15 @@
+.emblem__img {
+    width: 73.33%;
+    min-height: 5.8%;
+    margin-top: 15%;
+    margin-bottom: 9px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (max-width: 320px) {
+    .emblem__img {
+        width: 70%;
+    }
+}

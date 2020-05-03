@@ -1,0 +1,40 @@
+.content__customer {
+    margin-left: 104px;
+    margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .content__customer {
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+} 
+
+@media (max-width: 375px) {
+    .content__customer {
+        margin-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px; 
+    }
+} 
+
+.content__emblem {
+    margin-top: 94px;
+    margin-left: 0px;
+}
+
+
+.page__header { 
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page__footer {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+

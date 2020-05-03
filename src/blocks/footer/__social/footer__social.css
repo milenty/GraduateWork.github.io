@@ -1,0 +1,24 @@
+@import url('../__social-link/footer__social-link.css');
+
+.footer__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin-left: 93px;
+    margin-bottom: 22px;
+}
+
+@media (max-width: 375px) {
+    .footer__social {
+        margin-left: 0px;
+        margin-top: 22px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__social {
+        margin-left: 0px;
+        margin-top: 22px;
+    }
+}

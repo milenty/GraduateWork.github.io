@@ -1,0 +1,10 @@
+  .slider__item_inner {
+    width: 100%;
+    min-height: 288px;
+  }
+
+  @media (max-width: 320px) {
+    .slider__item_inner {
+        width: 90%;
+      }
+  }

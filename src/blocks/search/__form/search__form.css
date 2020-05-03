@@ -1,0 +1,51 @@
+@import url('./search__form_button.css');
+@import url('./search__form_text.css');
+
+
+.search__form {
+    position: relative;
+    width: 42.22%;
+    min-height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row; 
+    background: #FFFFFF;
+    border: 1px solid #D1D2D6;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    border-radius: 100px;
+}
+
+@media (max-width: 768px) {
+    .search__form {
+        width: 58.33%;
+        margin-top: 0px;
+        margin-left: 160px;
+        margin-right: 156px;
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 375px) {
+    .search__form {
+        width: 90%;
+        min-height: 56px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 16px;
+        align-items: center;
+    }
+}  
+
+@media (max-width: 320px) {
+    .search__form {
+        width: 90%;
+        min-height: 56px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+}    

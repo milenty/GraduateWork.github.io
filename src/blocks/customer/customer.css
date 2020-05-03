@@ -1,0 +1,13 @@
+@import url('./__text/customer__text.css');
+@import url('./__title/customer__title.css');
+
+.customer {
+    width: 57%;
+}
+
+@media (max-width: 768px) {
+    .customer {
+        width: 90%; 
+    }
+} 
+

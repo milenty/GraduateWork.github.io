@@ -1,0 +1,16 @@
+@import url('../__date/_1/table__date_1.css');
+@import url('../__date/_2/table__date_2.css');
+@import url('../__date/_3/table__date_3.css');
+@import url('../__date/_4/table__date_4.css');
+@import url('../__date/_5/table__date_5.css');
+@import url('../__date/_6/table__date_6.css');
+@import url('../__date/_7/table__date_7.css');
+
+.table__date {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 80px;
+    color: #1A1B22;
+}

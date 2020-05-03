@@ -1,0 +1,35 @@
+.no-result__img {
+    width: 6%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+}
+
+
+@media (max-width: 999px) {
+    .no-result__img {
+        width: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .no-result__img {
+        margin-top: 42px;
+        width: 12%;
+    }
+}
+
+@media (max-width: 375px) {
+    .no-result__img {
+        margin-top: 21px;
+        width: 30%;
+    }
+}
+
+@media (max-width: 320px) {
+    .no-result__img {
+        margin-top: 21px;
+        width: 30%;
+    }
+}

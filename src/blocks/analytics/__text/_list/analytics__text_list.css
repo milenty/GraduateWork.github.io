@@ -1,0 +1,38 @@
+.analytics___text_list {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    width: 49.5%;
+    font-weight: normal;
+    margin-top: 24px;
+    margin-left: 104px;
+    margin-bottom: 0px;
+    white-space: pre-line;  
+}
+
+
+.analytics__text_span {
+    font-weight: bold; 
+}
+
+@media (max-width: 768px) {
+    .analytics___text_list {
+        width: 90%;
+        margin-top: 24px;
+        margin-left: 40px;
+        margin-bottom: 0px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .analytics___text_list {
+        width: 90%;
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-bottom: 24px;
+    }
+}
+

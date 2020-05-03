@@ -1,0 +1,52 @@
+.search__title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 42.22%;
+    margin-top: 80px;
+    margin-left: 416px;
+    margin-right: 479px;
+    margin-bottom: 32px;
+    white-space: pre-line;
+}
+
+@media (max-width: 768px) {
+    .search__title {
+        width: 50,13%;
+        margin-top: 40px;
+        margin-left: 163px;
+        margin-right: 220px;
+        margin-bottom: 16px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+  }
+
+@media (max-width: 375px) {
+    .search__title {
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 56px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+  }
+
+
+@media (max-width: 320px) {
+    .search__title {
+        width: 90%;
+        margin-top: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 56px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+  }

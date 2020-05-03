@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./pages/analytika.css">
+    <link rel="stylesheet" href="fonts/Inter_web/inter.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Analyzer</title> 
+</head>
+
+<body>
+    <div class="page">
+        <header class="header page__header">
+            <img src="./images/NewsAnalyzer_blc.svg" alt="NewsAnalyzer" class="logo header__logo">
+            <a href="./index.html" class="lang header__lang">Главная</a>
+            <a href="./about.html" class="lang header__lang">О проекте</a>
+        </header>
+        <main class="content">
+            <section class="analytics content__analytics">
+                <h2 class="analytics__subtitle">Главная/<span class="analytics__subtitle_dif-text">Аналитика</span></h2>
+                <h1 class="analytics__title">Вы спросили:<blockquote class="analytics__title_user-request">«Путешествия»</blockquote></h1>
+                <p class="analytics___text_list">Новостей за неделю:<span class="analytics__text_span">34324</span>
+                Упоминаний в загаловках:<span class="analytics__text_span">235</span></p>
+            </section>
+            <section class="table content__table">  
+                <h2 class="table__title">Аналитика по дням</h2>
+                <div class="table__grid">
+                    <h4 class="table__column-header_date">Дата
+                        (Апрель)</h4>
+                    <h4 class="table__mentions">Количество
+                         упоминаний</h4>
+                    <div class="table__line"></div>
+                    <div class="table__rating table__rating_0">0</div>    
+                    <div class="table__rating table__rating_25">25</div> 
+                    <div class="table__rating table__rating_50">50</div> 
+                    <div class="table__rating table__rating_75">75</div> 
+                    <div class="table__rating table__rating_100">100</div> 
+                    <div class="table__date table__date_1">19,пн</div>
+                    <div class="table__rectangle table__rectangle_1">15</div>  
+                    <div class="table__date table__date_2">20,вт</div>
+                    <div class="table__rectangle table__rectangle_2">  18</div> 
+                    <div class="table__date table__date_3">21,cp</div>
+                    <div class="table__rectangle table__rectangle_3">11</div> 
+                    <div class="table__date table__date_4">22,чт</div>
+                    <div class="table__rectangle table__rectangle_4">39</div> 
+                    <div class="table__date table__date_5">23,пт</div>
+                    <div class="table__rectangle table__rectangle_5">45</div> 
+                    <div class="table__date table__date_6">24,сб</div>
+                    <div class="table__rectangle table__rectangle_6">73</div> 
+                    <div class="table__date table__date_7">25,вс</div>
+                    <div class="table__rectangle table__rectangle_7">34</div> 
+                    <div class="table__rating table__rating_0w">0</div>    
+                    <div class="table__rating table__rating_25w">25</div> 
+                    <div class="table__rating table__rating_50w">50</div> 
+                    <div class="table__rating table__rating_75w">75</div> 
+                    <div class="table__rating table__rating_100w">100</div> 
+                </div>    
+            </section>
+        </main>
+        <footer class="footer page__footer">
+            <p class="footer__author"> &copy; 2019.Samorukova M.</p>
+            <div class="footer__between-links">
+                <a class="footer__link" href="#" target="_blank">Главная</a>
+                <a class="footer__link" href="#" target="_blank">О проекте</a>
+                <a class="footer__link" href="#" target="_blank">Яндекс.Практикум</a>
+            </div>
+            <div class="footer__social">
+                <a class="footer__social-link" href="https://vk.com"><img src="./images/fb.svg" alt="Лого ВКонтакте"></a>
+                <a class="footer__social-link" href="https://www.instagram.com/?hl=ru"><img src="./images/git.svg" alt="Лого Instagram"></a>
+            </div>  
+        </footer>
+    </div>
+    <script  type="module" src="<%= htmlWebpackPlugin.files.chunks.analytika.entry %>"></script>
+</body>
+</html>
+
+

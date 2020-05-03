@@ -1,0 +1,33 @@
+.history__title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+    margin-left: 104px;
+    margin-top: 72px;
+    width: 49.44%;
+    position: absolute;
+    white-space: none;
+}
+
+@media (max-width: 768px) {
+    .history__title {
+        font-size: 30px;
+        line-height: 34px;  
+        margin-left: 40px;
+        margin-top: 40px;
+        width: 43.75%;
+    }
+}
+
+@media (max-width: 375px) {
+    .history__title { 
+        margin-left: 16px;
+        margin-top: 32px;
+        width: 60%;
+        white-space: pre-line;
+        
+    }
+}

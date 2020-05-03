@@ -1,0 +1,24 @@
+.table__rectangle_4 {
+    /*width: 34.46%;*/
+    max-width: 424px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 12;
+}
+
+@media (max-width: 375px) {
+    .table__rectangle_4 {
+        width: 36.11%;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 320px) {
+    .table__rectangle_4 {
+        width: 36.11%;
+    }
+}

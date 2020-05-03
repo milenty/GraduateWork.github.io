@@ -1,0 +1,42 @@
+@import url('../__lang/news-list__lang.css');
+
+.news-list__string {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 94px;
+    margin-left: 77.29%;
+    width: 14%;
+}
+
+
+@media (max-width: 999px) {
+    .news-list__string {
+        width: 25%;
+        margin-top: 48px;
+        margin-left: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .news-list__string {
+        width: 25%;
+        margin-top: 48px;
+    }
+}
+
+@media (max-width: 375px) {
+    .news-list__string {
+        width: 90%;
+        margin-top: 117px;
+        margin-left: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .news-list__string {
+        margin-top: 135px;
+        margin-left: 12px;
+    }
+}

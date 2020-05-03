@@ -1,0 +1,132 @@
+.table__rating {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+}
+
+.table__rating_0 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.table__rating_25 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.table__rating_50 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.table__rating_75 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.table__rating_100 {
+    margin-top: 0px;
+    margin-left: -20px;
+    margin-bottom: 0px;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.table__rating_0w {
+    margin-top: -40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 23;
+    grid-row-end: 24;
+}
+
+.table__rating_25w {
+    margin-top: -40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 23;
+    grid-row-end: 24;
+}
+
+.table__rating_50w {
+    margin-top: -40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 23;
+    grid-row-end: 24;
+}
+
+.table__rating_75w {
+    margin-top: -40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 23;
+    grid-row-end: 24;
+}
+
+.table__rating_100w {
+    margin-top: -40px;
+    margin-left: -20px;
+    margin-bottom: 0px;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 23;
+    grid-row-end: 24;
+}
+
+@media (max-width: 768px) {
+    .table__rating_100 {
+        margin-left: -40px;
+    }
+
+    .table__rating_100w {
+        margin-left: -40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .table__rating {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .table__rating {
+        display: none;
+    }
+}

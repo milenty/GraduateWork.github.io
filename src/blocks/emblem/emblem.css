@@ -1,0 +1,25 @@
+@import url('./__item/emblem__item.css');
+@import url('./__title/emblem__title.css');
+
+.emblem {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background: #F5F6F7;
+}
+
+@media (max-width: 768px) {
+    .emblem {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .emblem {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        grid-template-columns: 45% 10% 45%;
+    }
+}
