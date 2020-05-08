@@ -1,7 +1,0 @@
-.slider__item_avatar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    min-height: 64px;
-    min-width: 0;
-}
