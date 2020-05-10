@@ -28,4 +28,4 @@ npm run deploy
 
 Стек технологий HTML, CSS, JavaScript, Webpack.
 
-Версия проекта v0.0.3
+Версия проекта v0.0.5
