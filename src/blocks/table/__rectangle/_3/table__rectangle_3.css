@@ -10,8 +10,15 @@
     grid-row-end: 9;
 }
 
+@media (max-width: 999px) {
+    .table__rectangle_3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+}
 
-@media (max-width: 375px) {
+
+@media (max-width: 480px) {
     .table__rectangle_3 {
         width: 15%;
     }

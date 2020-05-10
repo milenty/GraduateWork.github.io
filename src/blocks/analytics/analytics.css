@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
     .analytics{
-        min-height: 426px;
+        min-height: 300px;
         width: 100%;
        }
 }

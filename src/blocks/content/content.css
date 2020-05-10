@@ -6,13 +6,13 @@
 @media (max-width: 768px) {
     .content__customer {
         margin-left: 40px;
-        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
 } 
 
 @media (max-width: 375px) {
     .content__customer {
-        margin-left: 16px;
         margin-top: 16px;
         margin-bottom: 16px; 
     }

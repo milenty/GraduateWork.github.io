@@ -1,5 +1,6 @@
 .news-list__title {
-    width: 49.44%;
+    position: relative;
+    width: 57.79%;
     max-height: 46px;
     font-family: Roboto Slab;
     font-style: normal;
@@ -7,16 +8,15 @@
     font-size: 40px;
     line-height: 46px;
     color: #1A1B22;
-    margin-top: 80px;
-    margin-left: 104px;
-    position: absolute;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 @media (max-width: 999px) {
     .news-list__title {
         width: 43.75%;
-        margin-top: 40px;
-        margin-left: 140px;
     }
 }
 
@@ -24,23 +24,19 @@
 @media (max-width: 768px) {
     .news-list__title {
         width: 43.75%;
-        margin-top: 40px;
-        margin-left: 40px;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .news-list__title {
         width: 90%;
-        margin-top: 32px;
-        margin-left: 16px;
+        margin-bottom: 16px;
+        white-space: pre-line;
     }
 }
 
 @media (max-width: 320px) {
     .news-list__title {
         width: 90%;
-        margin-top: 32px;
-        margin-left: 16px;
     }
 }

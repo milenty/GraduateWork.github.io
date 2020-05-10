@@ -1,6 +1,49 @@
 .autor__united-words {
     display: flex;
     flex-direction: column;
+    margin-left: 56px;
+    margin-top: 131px;
+    width: 41.46%;
 }
 
 
+@media (max-width: 999px) {
+    .autor__united-words {
+        margin-left: 48px;
+        margin-top: 87px;
+    }
+}
+
+@media (max-width: 768px) {
+    .autor__united-words {
+        margin-top: 42px;
+        margin-left: 4.2%;
+        width: 55.2%;
+    }
+}
+
+@media (max-width: 600px) {
+    .autor__united-words {
+        margin-top: 42px;
+        margin-left: 4.2%;
+        width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .autor__united-words {
+        margin-top: 42px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+}
+
+@media (max-width: 375px) {
+    .autor__united-words {
+        margin-top: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}

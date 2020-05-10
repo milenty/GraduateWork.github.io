@@ -1,4 +1,4 @@
-import "./style.css";
+import "./pages/about.css";
 import "./images/NewsAnalyzer_blc.svg";
 import "./images/control2.png";
 import "./images/html.jpg";

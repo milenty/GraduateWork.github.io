@@ -18,15 +18,25 @@
     margin-left: 0px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .news-list__lang_name {
-        width: 56%;
+        width: 63%;
+        white-space: nowrap;
+
     }
 }
 
+@media (max-width: 375px) {
+    .news-list__lang_name {
+        width: 65%;
+        white-space: nowrap;
+    }
+}
+
+
 @media (max-width: 320px) {
     .news-list__lang_name {
-        width: 64%;
+        width: 75%;
     }
 }
 

@@ -10,10 +10,17 @@
     grid-row-end: 19;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 999px) {
+    .table__rectangle_6 {
+        grid-column-start: 3;
+        grid-column-end: 6;
+    }
+}
+
+@media (max-width: 480px) {
     .table__rectangle_6 {
         width: 72.22%;
-        grid-column-end: 3;
+        grid-column-end: 4;
     }
 }
 

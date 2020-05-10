@@ -1,5 +1,3 @@
-console.log('rrr');
-
 $(document).ready(function(){
   $('.slider').slick({
     arrows: true,
@@ -17,7 +15,7 @@ $(document).ready(function(){
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '0px',
           slidesToShow: 2
         }
       },
@@ -26,7 +24,7 @@ $(document).ready(function(){
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '0px',
           slidesToShow: 1
         }
       }

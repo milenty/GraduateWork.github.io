@@ -10,11 +10,11 @@
 @media (max-width: 768px) {
     .table {
         width: 100%;
-        min-height: none;
+        min-height: 700px;
        }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .table {
         width: 100%;
         min-height: 478px;

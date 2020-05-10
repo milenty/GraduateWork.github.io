@@ -3,10 +3,11 @@
     justify-content: space-between;
     flex-direction: row;
     margin-top: 85px;
-    margin-left: 80%;
+    margin-left: 79%;
     margin-right: 7%;
     width: 11%;
     min-height: 24px;
+    /*border: blueviolet 1px solid;*/
 }
 
 .lang-name {
@@ -33,14 +34,14 @@
     .history__lang {
         margin-top: 48px;
         margin-left: 72%;
-        margin-right: 8.6%;
+        margin-right: 8%;
         width: 20%;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .history__lang {
-        margin-top: 560px;
+        margin-top: 456px;
         margin-left: 16px;
         margin-right: 16px;
         margin-bottom: 32px;

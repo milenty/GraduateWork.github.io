@@ -6,8 +6,11 @@
     line-height: 22px;
     color: #B6BCBF;
     width: 15%;
+    margin-left: 7.2%;
+    margin-top: 15px;
+    white-space: pre-line;
 }
-
+   
 @media (max-width: 768px) {
     .footer__author {
         margin-top: 24px;
@@ -18,23 +21,25 @@
     }
 } 
 
-@media (max-width: 560px) {
+@media (max-width: 680px) {
     .footer__author {
-        margin-top: 160px;
-        margin-left: 16px;
+        margin-top: 180px;
+        margin-left: 40px;
         margin-right: 0px;
         margin-bottom: 22px;
         width: 62.5%;
+        white-space: normal;
+
     }
 } 
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .footer__author {
-        margin-top: 180px;
         margin-left: 16px;
-        margin-right: 0px;
-        margin-bottom: 22px;
-        width: 62.5%;
     }
 }
+
+
+
+
 

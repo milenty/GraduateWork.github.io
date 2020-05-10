@@ -1,37 +1,77 @@
 .autor__foto {
-    margin-top: 12.82%;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 80px;
     margin-left: 7.22%;
     width: 32.22%;
-    height: auto;
-    max-width: 32.22%;
-    margin-bottom: 12.82%;
+}
+
+
+@media (max-width: 999px) {
+    .autor__foto {
+        width: 30.21%;
+       
+    }
 }
 
 @media (max-width: 768px) {
     .autor__foto {
         width: 30.21%;
-        margin-bottom: 11.5%;
-        margin-top: 11.5%;
+        margin-bottom: 61px;
+        margin-top: 61px;
         margin-left: 5.2%;
+
+        max-height: 232px;
+        max-width: 232px;
+        
+        min-height: 232px;
+        min-width:  232px;
     }
 }
 
 @media (max-width: 600px) {
     .autor__foto {
-        min-width: 65%;
+        width: 70%;
         margin-bottom: 3.4%;
         margin-top: 2.6%;
         margin-left: auto;
         margin-right: auto;
+        max-height: 410px;
+        max-width: 410px;
+        
+        min-height: 410px;
+        min-width:  410px;
+    }
+}
+
+@media (max-width: 480px) {
+    .autor__foto {
+        min-width: 85%;
+        margin-bottom: 3.4%;
+        margin-top: 2.6%;
+
+        max-height: 310px;
+        max-width: 310px;
+        
+        min-height: 310px;
+        min-width:  310px;
     }
 }
 
 @media (max-width: 375px) {
     .autor__foto {
         min-width: 85%;
-        margin-bottom: 3.4%;
-        margin-top: 2.6%;
-        margin-left: 7.5%;
+        margin-bottom: 0;
+        margin-top: 8.6%;
+
+        max-height: 272px;
+        max-width: 272px;
+        
+        min-height: 272px;
+        min-width:  272px;
     }
 }
+
+
+
 

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--<link rel="stylesheet" href="fonts/Inter_web/inter.css">-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
     <title>News Analyzer</title> 
@@ -24,7 +23,7 @@
                 <p class="search__subtitle"> Введите в поиске любую тему и узнайте, насколько популярной
                      она была в носотях за прошедшую неделю.</p>
                 <form class="search__form">
-                    <input class="search__form_text" type="text" placeholder="Природа">
+                    <input class="search__form_text" type="text"  id="request" placeholder="Введите ваш запрос" value ="Природа" required>
                     <button class="search__form_button" type="submit">Искать</button>
                 </form>    
             </section>
@@ -37,19 +36,20 @@
                 <h1 class="no-result__title">Ничего не найдено</h1>
                 <p class="no-result__subtitle"> К сожалению по вашему запросу
                      ничего не найдено.</p>
-            </section>      
+            </section>   
             <section class="news-list content__news-list">
+                <div class="news-list__navigation">
                     <h2 class="news-list__title"> Результаты поиска</h2>
                     <div class="news-list__string">
                         <a href="./analytika.html" class="news-list__lang news-list__lang_name">Посмотреть аналитику</a>
                         <img src="./images/Path_5.svg" alt="arrow/back" class="news-list__lang news-list__lang_icon">
-                   </div>    
+                    </div>  
+                </div>      
                 <div class="news-list__cards"> 
                     <div class="card">
                        <img src="./images/image_01.jpg" alt="Эндемичное растение Америки" class="card__img">
                        <div class="card__datetime"> 2 августа, 2019</div>    
-                       <h3 class="card__title">Национальное достояние – 
-                           парки</h3>
+                       <h3 class="card__title">Национальное достояние – парки</h3>
                        <p class="card__paragraph">В 2016 году Америка отмечала важный
                             юбилей: сто лет назад здесь начала
                              складываться система национальных парков
@@ -73,8 +73,7 @@
                      <div class="card">
                         <img src="./images/image_03.jpg" alt="Эндемичное растение Тайги" class="card__img">
                         <div class="card__datetime"> 2 августа, 2019</div>    
-                        <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря 
-                            Шпиленка</h3>
+                        <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
                         <p class="card__paragraph">Знаменитый фотограф снимает 
                          первозданные леса России, чтобы рассказать о необходимости их сохранения. В 
                          этот раз он отправился в Двинско-Пинежскую тайгу, где... 
@@ -84,8 +83,7 @@
                      <div class="card">
                         <img src="./images/image_04.jpg" alt="Эндемичное растение Тайги" class="card__img">
                         <div class="card__datetime"> 2 августа, 2019</div>    
-                        <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря 
-                            Шпиленка</h3>
+                        <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
                         <p class="card__paragraph">Знаменитый фотограф снимает 
                          первозданные леса России, чтобы рассказать о необходимости их сохранения. В 
                          этот раз он отправился в Двинско-Пинежскую тайгу, где... 
@@ -95,8 +93,7 @@
                      <div class="card">
                         <img src="./images/image_05.jpg" alt="Эндемичное растение Тайги" class="card__img">
                         <div class="card__datetime"> 2 августа, 2019</div>    
-                        <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря 
-                            Шпиленка</h3>
+                        <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
                         <p class="card__paragraph">Знаменитый фотограф снимает 
                          первозданные леса России, чтобы рассказать о необходимости их сохранения. В 
                          этот раз он отправился в Двинско-Пинежскую тайгу, где... 
@@ -106,8 +103,7 @@
                      <div class="card">
                         <img src="./images/image_06.jpg" alt="Эндемичное растение Тайги" class="card__img">
                         <div class="card__datetime"> 2 августа, 2019</div>    
-                        <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря 
-                            Шпиленка</h3>
+                        <h3 class="card__title">«Первозданная тайга»: новый фотопроект Игоря  Шпиленка</h3>
                         <p class="card__paragraph">Знаменитый фотограф снимает 
                          первозданные леса России, чтобы рассказать о необходимости их сохранения. В 
                          этот раз он отправился в Двинско-Пинежскую тайгу, где... 
@@ -126,22 +122,23 @@
                     </address>
                     <address class="autor__address_down">
                        Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились,
-                         и чем можете помочь потенциальным заказчикам.
+                    и чем можете помочь потенциальным заказчикам.
                     </address>
                 </div> 
-        </section>       
+            </section>      
         </main>
         <footer class="footer page__footer">
-            <p class="footer__author"> &copy; 2019.Samorukova M.</p>
-            <div class="footer__between-links">
-                <a class="footer__link" href="#" target="_blank">Главная</a>
-                <a class="footer__link" href="#" target="_blank">О проекте</a>
-                <a class="footer__link" href="#" target="_blank">Яндекс.Практикум</a>
-            </div>
-            <div class="footer__social">
-                <a class="footer__social-link" href="https://vk.com"><img src="./images/fb.svg" alt="Лого ВКонтакте"></a>
-                <a class="footer__social-link" href="https://www.instagram.com/?hl=ru"><img src="./images/git.svg" alt="Лого Instagram"></a>
-            </div>  
+            <p class="footer__author"> &copy; 2020.
+                Samorukova M.</p>
+            <ul class="footer__between-links">
+                <li><a class="footer__link" href="index.html" target="_blank">Главная</a></li>
+                <li><a class="footer__link" href="about.html" target="_blank">О проекте</a></li>
+                <li><a class="footer__link" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+            </ul>
+            <ul class="footer__social">
+                <li><a class="footer__social-link" href="https://vk.com"><img src="./images/fb.svg" alt="Лого ВКонтакте"></a></li>
+                <li><a class="footer__social-link" href="https://www.instagram.com/?hl=ru"><img src="./images/git.svg" alt="Лого Instagram"></a></li>
+            </ul>  
         </footer>
     </div>
     <script  type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>

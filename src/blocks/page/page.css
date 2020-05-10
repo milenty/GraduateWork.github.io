@@ -1,6 +1,7 @@
 .page {
     position: relative;
     max-width: 1440px;
+    min-width: 320px;
     width: 100%;
     background: #FFFFFF;
     margin-left: auto;
@@ -11,30 +12,12 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-  } 
-
-@media (max-width: 1024px) {
-    .page {
-        width: 100%;
-    }
-}
-
-  
-@media (max-width: 768px) {
-    .page {
-        width: 100%;
-    }
-}
-
-@media (max-width: 375px) {
-    .page {
-        width: 100%;
-        
-    }
-}  
+} 
+ 
 
 @media (max-width: 320px) {
     .page {
         width: 100%;
+        max-width: 320px;
     }
 }

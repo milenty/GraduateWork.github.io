@@ -17,6 +17,15 @@
     grid-row-end: 2;
 }
 
+@media (max-width: 999px) {
+    .table__mentions {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+
 @media (max-width: 320px) {
     .table__mentions {
         width: 62%;

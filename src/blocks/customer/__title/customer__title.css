@@ -9,3 +9,11 @@
     margin-top: 0px;
     margin-left: 0px;
 }
+
+@media (max-width: 480px) {
+    .customer__title {
+         margin-bottom: 0;
+    }
+} 
+
+

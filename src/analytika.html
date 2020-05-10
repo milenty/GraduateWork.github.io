@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./pages/analytika.css">
-    <link rel="stylesheet" href="fonts/Inter_web/inter.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="<%=htmlWebpackPlugin.files.chunks.analytika.css %>">
     <title>News Analyzer</title> 
 </head>
 
@@ -21,7 +20,7 @@
         <main class="content">
             <section class="analytics content__analytics">
                 <h2 class="analytics__subtitle">Главная/<span class="analytics__subtitle_dif-text">Аналитика</span></h2>
-                <h1 class="analytics__title">Вы спросили:<blockquote class="analytics__title_user-request">«Путешествия»</blockquote></h1>
+                <h1 class="analytics__title">Вы спросили:<span class="analytics__title_user-request">«Путешествия»</span></h1>
                 <p class="analytics___text_list">Новостей за неделю:<span class="analytics__text_span">34324</span>
                 Упоминаний в загаловках:<span class="analytics__text_span">235</span></p>
             </section>

@@ -38,6 +38,13 @@ module.exports = {
         loader: 'file-loader?name=./js/[name].[ext]'
       },
       {
+        test: /\.(eot|ttf|woff|woff2|svg)?$/,
+        include: [
+          path.resolve(__dirname,'src/vendor/fonts')
+        ],
+        loader: 'file-loader?name=./fonts/[name].[ext]'
+      },
+      {
         test: /\.(png|jpg|gif|ico|svg)?$/,
         loader: 'file-loader?name=./images/[name].[ext]'
       },
@@ -48,10 +55,6 @@ module.exports = {
                         'css-loader', 
                         'postcss-loader'
         ]
-      },
-      {
-        test: /\.(eot|ttf|woff|woff2)$/,
-        loader: 'file-loader?name=./vendor/[name].[ext]'
       }
         ]
       },

@@ -11,6 +11,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: 8.4% 22.89% 22.89% 22.89% 22.89%;
+    grid-template-rows: auto;
     grid-gap: 0px;
     width: 85.55%;
     margin-top: 48px;
@@ -29,6 +30,7 @@
 
 @media (max-width: 999px) {
     .table__grid {
+        grid-template-columns: 7.4% 1% 22.89% 22.89% 22.89% 22.89%;
         grid-gap: 0px;
         width: 85.55%;
         margin-top: 48px;
@@ -46,10 +48,10 @@
        }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 600px) {
     .table__grid {
         width: 90%;
-        grid-template-columns: 22.22% 77.77%;
+        grid-template-columns: 21.22% 1% 77.77%;
         margin-top: 24px;
         margin-left: 16px;
         margin-right: 16px;

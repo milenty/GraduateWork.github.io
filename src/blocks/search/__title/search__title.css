@@ -6,20 +6,20 @@
     line-height: 64px;
     text-align: left;
     color: #FFFFFF;
-    width: 42.22%;
+    width: 39%;
     margin-top: 80px;
-    margin-left: 416px;
-    margin-right: 479px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 32px;
     white-space: pre-line;
 }
 
 @media (max-width: 768px) {
     .search__title {
-        width: 50,13%;
+        width: 58.85%;
         margin-top: 40px;
-        margin-left: 163px;
-        margin-right: 220px;
+        /*margin-left: 163px;
+        margin-right: 220px;*/
         margin-bottom: 16px;
         font-size: 36px;
         line-height: 40px;
@@ -30,8 +30,6 @@
     .search__title {
         width: 90%;
         margin-top: 30px;
-        margin-left: 16px;
-        margin-right: 16px;
         margin-bottom: 56px;
         font-size: 36px;
         line-height: 40px;
@@ -43,8 +41,6 @@
     .search__title {
         width: 90%;
         margin-top: 30px;
-        margin-left: 16px;
-        margin-right: 16px;
         margin-bottom: 56px;
         font-size: 36px;
         line-height: 40px;

@@ -2,11 +2,10 @@
 
 
 .news-list__cards {
-    width: 85.55%;
+    width: 86%;
     display: grid;
-    align-items: center;
-    grid-template-columns: 32.47% 32.47% 32.47%;
-    grid-gap: 16px;
+    grid-template-columns: 32.3% 32.3% 32.3%;
+    grid-gap: 1.4%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 64px;
@@ -14,16 +13,17 @@
 
 @media (max-width: 768px) {
     .news-list__cards {
+        width: 89.56%;
         grid-gap: 8px;
         margin-top: 32px;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .news-list__cards {
-        grid-template-columns: 288px;
+        grid-template-columns: 100%;
         grid-gap: 8px;
-        margin-left: 16px;
+        /*margin-left: 16px;*/
         margin-top: 32px;
     }
 }
@@ -31,8 +31,7 @@
 @media (max-width: 320px) {
     .news-list__cards {
         grid-template-columns: 288px;
-        grid-gap: 8px;
-        margin-left: 16px;
+        grid-row-gap: 8px;
         margin-top: 32px;
     }
 }

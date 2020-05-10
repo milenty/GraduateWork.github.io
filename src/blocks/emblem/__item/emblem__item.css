@@ -18,10 +18,16 @@
     margin-left: 44%;
 }
 
+@media (max-width: 999px) {
+    .emblem__item_JavaScript {
+        white-space: nowrap;
+    }
+}
+
 @media (max-width: 768px) {
     .emblem__item {
         width: 15.63%;
-        margin-left: 64px;
+        margin-left: 8%;
         margin-top: 148px;
         margin-bottom: 40px;
     }
@@ -32,7 +38,7 @@
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .emblem__item {
         width: 83.33%;
     }

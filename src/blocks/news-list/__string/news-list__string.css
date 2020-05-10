@@ -1,42 +1,39 @@
 @import url('../__lang/news-list__lang.css');
 
 .news-list__string {
+    width: 17%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 94px;
-    margin-left: 77.29%;
-    width: 14%;
+    margin-left: 297px;
+    margin-top: 0;
 }
 
 
 @media (max-width: 999px) {
     .news-list__string {
         width: 25%;
-        margin-top: 48px;
-        margin-left: 65%;
+        margin-left: 33%;
     }
 }
 
 @media (max-width: 768px) {
     .news-list__string {
         width: 25%;
-        margin-top: 48px;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .news-list__string {
         width: 90%;
-        margin-top: 117px;
-        margin-left: 12px;
+        margin-left: 0;
+        margin-top: 42px;
     }
 }
 
-@media (max-width: 320px) {
-    .news-list__string {
-        margin-top: 135px;
-        margin-left: 12px;
-    }
-}
+
+
+
+
+

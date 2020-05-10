@@ -9,17 +9,19 @@
     background: #F5F6F7;
 }
 
+
 @media (max-width: 768px) {
     .emblem {
         width: 100%;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .emblem {
         width: 100%;
         display: grid;
         grid-template-rows: 60% 40%;
         grid-template-columns: 45% 10% 45%;
+        margin-top: 16px;
     }
 }

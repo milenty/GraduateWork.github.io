@@ -10,25 +10,29 @@
 
 
 
-  .slider__item {
+.slider__item {
     position: relative;
     margin-right: 16px;
     background: #FFFFFF;
     border-radius: 16px;
-  }
+}
 
 
 @media (max-width: 768px) {
   .slider__item {
-        min-height: 242px;
+        /*min-height: 242px;*/
         width: 43.75%;
+        min-width: 336px;
         margin-right: 8px;
+        
     }
 }
 
 @media (max-width: 320px) {
   .slider__item {
       width: 90%;
+      min-width: 288px;
       margin-right: 16px;
+
     }
 }
