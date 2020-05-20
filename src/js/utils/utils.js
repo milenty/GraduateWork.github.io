@@ -9,6 +9,3 @@ export function getRequestFormattedDate() {
   return ( theDate.getFullYear().toString() + '-' + theDate.getMonth().toString() + '-' + theDate.getDate().toString());
 }
 
-export function Testme() {
-  console.log(WTF???);
-}

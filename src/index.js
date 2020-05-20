@@ -16,7 +16,7 @@ import "./images/git.svg";
 
 //import {SearchInput} from './js/components/SearchInput';
 //import {NewsApi} from "./js/modules/NewsApi";
-import {Testme}from "./js/test.js";
+import {Testme} from "./js/test.js";
 console.log(Testme());
 //import {getRequestFormattedDate} from "./js/utils/utils";
 //new NewsApi();
