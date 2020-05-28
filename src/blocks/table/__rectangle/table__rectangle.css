@@ -5,17 +5,8 @@
 @import url('./_5/table__rectangle_5.css');
 @import url('./_6/table__rectangle_6.css');
 @import url('./_7/table__rectangle_7.css');
+@import url('./_point/table__rectangle_point.css');
 
 .table__rectangle {
-    background: #2F71E5;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.4px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    background: #2F71E5;  
 }

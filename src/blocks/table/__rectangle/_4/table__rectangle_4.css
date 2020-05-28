@@ -1,11 +1,11 @@
 .table__rectangle_4 {
     /*width: 34.46%;*/
-    max-width: 424px;
+    /*max-width: 424px;*/
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 11;
     grid-row-end: 12;
 }
@@ -13,14 +13,14 @@
 @media (max-width: 999px) {
     .table__rectangle_4 {
         grid-column-start: 3;
-        grid-column-end: 5;
+        grid-column-end: 7;
     }
 }
 
 @media (max-width: 480px) {
     .table__rectangle_4 {
         width: 36.11%;
-        grid-column-end: 3;
+        grid-column-end: 4;
     }
 }
 

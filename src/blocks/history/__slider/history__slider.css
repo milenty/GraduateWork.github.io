@@ -47,7 +47,8 @@
 
 /* Ограничивающая оболочка */
 .slick-list {
-  overflow: hidden;
+  /*overflow: hidden;*/
+  overflow: visible;
 }
 
 /* Лента слайдов */
@@ -68,6 +69,10 @@
 }
 
 @media (max-width: 768px) {
+  .slick-list {
+    overflow: hidden;
+  }
+
   .slider .slick-arrow {
      display: none;
   }

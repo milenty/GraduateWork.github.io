@@ -1,14 +1,16 @@
-import {successRes, failureRes, resItemKey, objItemKey, requestError} from '../constants/constants';
+import {SUCCESS, FAILURE, REQUEST_ERROR_MESSAGE} from '../constants/constants';
+import {initialCards} from '../constants/initialCards';
 
 export class SearchInput {
-    constructor (getNewsPromise, searchButton, searchInput, searchCallbackStart,searchCallbackEnd)
+    constructor (newsApi, searchButton, searchInput, searchCallbackStart, searchCallbackEnd, dataStorage)
     {
-        this.getNewsPromise = getNewsPromise;
+        this.newsApi = newsApi;
         this.searchButton = searchButton;
         this.searchInput = searchInput;
         this.searchCallbackStart = searchCallbackStart;
         this.searchCallbackEnd = searchCallbackEnd;
         this.searchButton.addEventListener("click", this.searchButtonClickHandler.bind(this));
+        this.dataStorage = dataStorage;
     }
 
     searchButtonClickHandler() {
@@ -16,12 +18,10 @@ export class SearchInput {
     }
 
     searchExecute(keyWord) {
-
-        localStorage.removeItem(resItemKey);
-        localStorage.removeItem(objItemIndex);
-
+        this.dataStorage.resetCards();
         this.searchCallbackStart();//Стартуем прелоадер
-        this.getNewsPromise(keyWord).then(res => {
+        ////////////////////////////////////////////////////////////
+        this.newsApi.getNews(keyWord).then(res => {
             if (res.ok) {
                 return res.json();
             }
@@ -30,15 +30,17 @@ export class SearchInput {
             })
         .then((result) => {
             //Сохранить результат и карточки в хранилище
-            localStorage.setItem(resItemKey, new {successRes}); //0-успех
-            localStorage.setItem(objItemKey, JSON.stringify(result));
+            this.dataStorage.setCards(JSON.stringify({DATEFROM:this.newsApi.getParams().from,DATETO:this.newsApi.getParams().to,KEYWORD:keyWord,RESULT:SUCCESS,ERRORMESSAGE:""}),JSON.stringify(result));
             this.searchCallbackEnd();
         }).catch((err) => {
             //Сохранить результат и ошибку в хранилище
-            localStorage.setItem(resItemKey, new {failureRes,requestError}); //-1-отказ
-            console.log(err); // выведем ошибку в консоль
+            this.dataStorage.setCards(JSON.stringify({DATEFROM:this.newsApi.getParams().from,DATETO:this.newsApi.getParams().to,KEYWORD:keyWord,RESULT:FAILURE,ERRORMESSAGE:REQUEST_ERROR_MESSAGE}));
             this.searchCallbackEnd();
         });
+        /////////////////////////////////////////////////////////////
+       /* this.dataStorage.setCards(JSON.stringify({DATEFROM:this.newsApi.getParams().from,DATETO:this.newsApi.getParams().to,KEYWORD:keyWord,RESULT:SUCCESS,ERRORMESSAGE:""}), JSON.stringify(initialCards));
+        this.searchCallbackEnd();*/
+        ////////////////////////////////////////////////////////////
     }
 };
 

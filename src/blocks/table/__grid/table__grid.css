@@ -7,6 +7,7 @@
 
 
 
+
 .table__grid {
     display: grid;
     align-items: center;
@@ -17,6 +18,30 @@
     margin-top: 48px;
     margin-left: 104px;
 }
+/*
+.table__grid :nth-child(10) {
+    width: 25%;
+  }
+  .table__grid :nth-child(12) {
+    width: 256px;
+  }
+  .table__grid :nth-child(14) {
+    width: 53%;
+  }
+  .table__grid :nth-child(16) {
+    width: 10%;
+  }
+  .table__grid :nth-child(18) {
+    width: 45%;
+  }
+  .table__grid :nth-child(20) {
+    width: 100%;
+  }
+
+  .table__grid :nth-child(22) {
+    width: 71%;
+  }*/
+
 
 @media (max-width: 1280px) {
     .table__grid {

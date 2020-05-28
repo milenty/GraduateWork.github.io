@@ -1,11 +1,11 @@
 .table__rectangle_2 {
     /*width: 20.78%;*/
-    max-width: 256px;
+    /*max-width: 256px;*/
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 6;
     grid-row-end: 7;
     white-space: pre-line;
@@ -14,7 +14,7 @@
 @media (max-width: 999px) {
     .table__rectangle_2 {
         grid-column-start: 3;
-        grid-column-end: 4;
+        grid-column-end: 7;
     }
 }
 
@@ -28,6 +28,6 @@
 @media (max-width: 320px) {
     .table__rectangle_2 {
         width: 21%;
-        grid-column-end: 3;
+        grid-column-end: 4;
     }
 }
