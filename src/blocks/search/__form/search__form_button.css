@@ -22,17 +22,22 @@
 
 .search__form_button:active {
     background: #2A65CC;
-    /*background: #347EFF;*/
     border: #2f71e5;
     cursor: pointer;
 }
 
-.search__form_button_active:hover {
-    box-shadow: 0 0 12px blue;
-    -moz-box-shadow: 0 0 12px blue;
-    -o-box-shadow: 0 0 12px blue;
-    -ms-box-shadow: 0 0 12px blue;
-    -webkit-box-shadow: 0 0 12px blue;
+.search__form_button:hover {
+    background: #347EFF;
+    cursor: pointer;
+}
+
+
+.search__form_button:active:hover {
+    box-shadow: 0 0 10px#60f;
+    -moz-box-shadow: 0 0 10px #60f;
+    -o-box-shadow: 0 0 10px #60f;
+    -ms-box-shadow: 0 0 10px #60f;
+    -webkit-box-shadow: 0 0 10px #60f;
 }
 
 @media (max-width: 768px) {

@@ -10,6 +10,7 @@
     margin-right: 0px;
     text-decoration: none;
     width: 100%;
+   /* white-space: nowrap;*/
 }
 
 .news-list__lang_icon {
@@ -18,19 +19,29 @@
     margin-left: 0px;
 }
 
+@media (max-width: 999px) {
+    .news-list__lang_icon {
+        margin-left: 7px;
+    }
+}
+
 @media (max-width: 480px) {
     .news-list__lang_name {
         width: 63%;
         white-space: nowrap;
+    }
 
+    .news-list__lang_icon {
+        margin-left: 15px;
     }
 }
 
 @media (max-width: 375px) {
     .news-list__lang_name {
-        width: 65%;
+        width: 68%;
         white-space: nowrap;
     }
+ 
 }
 
 

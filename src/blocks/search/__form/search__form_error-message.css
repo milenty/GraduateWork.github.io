@@ -1,0 +1,40 @@
+.search__form_error-message {
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+    display: inline-flex;
+    opacity: 1;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 23px;
+    margin-bottom: 0px;
+  }
+
+  .error-message__hidden {
+    opacity: 0;
+  }
+
+  @media (max-width: 768px) {
+    .search__form_error-message {
+        width: 50.9%;
+        margin-top: 35px;
+        margin-left: 24px;
+        margin-bottom: 17px;
+    }
+ }
+ 
+ @media (max-width: 375px) {
+  .search__form_error-message {
+        width: 80%;
+        margin-top: 35px;
+        margin-left: 16px;
+        margin-bottom: 17px;
+    }
+ }

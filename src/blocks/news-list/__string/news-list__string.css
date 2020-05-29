@@ -11,16 +11,23 @@
 }
 
 
-@media (max-width: 999px) {
+@media (max-width: 1280px) {
     .news-list__string {
         width: 25%;
-        margin-left: 33%;
+    }
+}
+
+@media (max-width: 999px) {
+    .news-list__string {
+        width: 32%;
+        margin-left: 277px;
     }
 }
 
 @media (max-width: 768px) {
     .news-list__string {
         width: 25%;
+        margin-left: 10%;
     }
 }
 

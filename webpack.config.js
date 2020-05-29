@@ -27,18 +27,8 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader",
-          options: {
-            plugins: ['@babel/plugin-transform-modules-commonjs']
-          }
+          loader: "babel-loader"
         }
-      },
-      {
-        test: /\.js$/,
-        include: [
-          path.resolve(__dirname,'src/js')
-        ],
-        loader: 'file-loader?name=./js/[name].[ext]'
       },
       {
         test: /\.(eot|ttf|woff|woff2|svg)?$/,

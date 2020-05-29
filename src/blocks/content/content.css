@@ -23,6 +23,13 @@
     margin-left: 0px;
 }
 
+.content__analytics {
+    margin-bottom: 0px;
+}
+
+.content__table {
+    margin-top: 0px;
+}
 
 .page__header { 
     margin-top: 0px;

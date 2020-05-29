@@ -1,11 +1,11 @@
 .table__rectangle_1 {
     /*width: 14.94%;*/
-    max-width: 184px;
+   /* max-width: 184px;*/
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 5;
 }
@@ -14,7 +14,7 @@
 @media (max-width: 999px) {
     .table__rectangle_1 {
         grid-column-start: 3;
-        grid-column-end: 4;
+        grid-column-end: 7;
     }
 }
 

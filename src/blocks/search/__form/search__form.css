@@ -1,5 +1,6 @@
 @import url('./search__form_button.css');
 @import url('./search__form_text.css');
+@import url('./search__form_error-message.css');
 
 
 .search__form {
@@ -18,6 +19,7 @@
     backdrop-filter: blur(8px);
     border-radius: 100px;
 }
+
 
 @media (max-width: 768px) {
     .search__form {
