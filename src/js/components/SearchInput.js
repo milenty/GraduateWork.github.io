@@ -35,8 +35,6 @@ export class SearchInput {
         }
 
         this.searchFormErrorMessage.textContent = errorText;
-
-        console.log(errorText);
         
         if (errorText.length > 0)
             this.searchFormErrorMessage.classList.remove("error-message__hidden");
