@@ -35,7 +35,7 @@ let fromDate = new Date();
 fromDate.setDate(fromDate.getDate() - 6);
 
 const newsApi = new NewsApi( {
-    baseUrl: 'https://newsapi.org/v2/everything',
+    baseUrl: 'https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything',
     headers: {
         'Content-Type': 'application/json'
     },
